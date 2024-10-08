@@ -50,6 +50,8 @@ public class Main {
             BufferedImage inputImage = ImageIO.read(new File(input.getFilepath()));//"./src/main/resources/wallpaper1.jpg"
             BufferedImage outputImage = getImageFromArray(createThemedImage(inputImage, themeColors),inputImage.getWidth(),inputImage.getHeight());
             Path filepath = Paths.get(input.getFilepath());
+            if(!filepath.isAbsolute())
+                filepath = filepath.toAbsolutePath();
             saveImageToFile(outputImage, filepath.getParent() +File.separator +"jawall_" + filepath.getFileName());
 //            frame.getContentPane().add(new JLabel(new ImageIcon(outputImage)));
 //            frame.setPreferredSize(new Dimension(outputImage.getWidth(),outputImage.getHeight()));
@@ -73,23 +75,25 @@ public class Main {
 
         int[] result = new int[height*width];
         if (hasAlphaChannel) {
-            System.out.println("ALPHA CHANNEL NOT SUPPORTED");
-//            final int pixelLength = 4;
-//            for (int pixel = 0, row = 0, col = 0; pixel + 3 < pixels.length; pixel += pixelLength) {
+            for (int pixel = 0, row = 0, col = 0; pixel + 3 < pixels.length; pixel += pixelLength) {
 //                int argb = 0;
 //                argb += (((int) pixels[pixel] & 0xff) << 24); // alpha
 //                argb += ((int) pixels[pixel + 1] & 0xff); // blue
 //                argb += (((int) pixels[pixel + 2] & 0xff) << 8); // green
 //                argb += (((int) pixels[pixel + 3] & 0xff) << 16); // red
-//                result[(row * width) + col] = argb;
-//                col++;
-//                if (col == width) {
-//                    col = 0;
-//                    row++;
-//                }
-//            }
+
+                int red= (int) pixels[pixel + 3] & 0xff;
+                int green = (int) pixels[pixel+2] & 0xff;
+                int blue = (int) pixels[pixel+1] & 0xff;
+                int alpha = (int) pixels[pixel] & 0xff;
+                result[(row * width) + col] = getClosestColor(alpha,red ,green,blue,themeColors).getPixelInt();;
+                col++;
+                if (col == width) {
+                    col = 0;
+                    row++;
+                }
+            }
         } else {
-//            final int pixelLength = 3;
             for (int pixel = 0, row = 0, col = 0; pixel + 2 < pixels.length; pixel += pixelLength) {
 //                argb += -16777216; // 255 alpha. Commented out because it feels like a magic number
 
