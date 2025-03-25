@@ -1,0 +1,177 @@
+themes:
+  - name: "iceiceninja"
+    colors:
+      - "#1CE1CE"
+      - "#312F2F"
+      - "#FFFC99"
+      - "#CA2E55"
+      - "#03045E"
+      - "#023E8A"
+      - "#0077B6"
+      - "#0096C7"
+      - "#00B4D8"
+      - "#48CAE4"
+      - "#90E0EF"
+      - "#ADE8F4"
+      - "#CAF0F8"
+      - "#7400B8"
+      - "#6930C3"
+      - "#5E60CE"
+      - "#5390D9"
+      - "#4EA8DE"
+      - "#48BFE3"
+      - "#56CFE1"
+      - "#64DFDF"
+      - "#72EFDD"
+      - "#80FFDB"
+      - "#D1495B"
+      - "#00798C"
+      - "#EDAE49"
+      - "#FFD97D"
+      - "#FF9B85"
+
+  - name: "iceiceninja2"
+    colors:
+      - "#1ce1ce"
+      - "#1B263B"
+      - "#415A77"
+      - "#778DA9"
+      - "#E0E1DD"
+      - "#F8F9FA"
+      - "#E9ECEF"
+      - "#0D1B2A"
+      - "#DEE2E6"
+      - "#CED4DA"
+      - "#ADB5BD"
+      - "#6C757D"
+      - "#495057"
+      - "#343A40"
+      - "#212529"
+      - "#0Bd0BD"
+      - "#2DF2DF"
+      - "#1cc1ce"
+      - "#1cbdad"
+      - "#0ba394"
+  - name: "rainbow"
+    colors:
+      - "#ff7d7d" #soft light red
+      - "#ff0000" #Lighter Red
+      - "#9c0000" #red
+      - "#914a4a" #soft dark red
+      - "#660000" # darker red
+      - "#ffc085" # pale orange
+      - "#ff7c00" #Bright orange
+      - "#ad5400" #orange
+      - "#7d3d00" # dark orange
+      - "#7a5c40" # dark soft orange
+      - "#fff380" # pale soft yellow
+      - "#ffe600" #Bright yellow
+      - "#a39300" #yellow
+      - "#6e6300" #dark yellow
+      - "#75703d" #dark pale yellow
+      - "#82ff82" # pale green
+      - "#00ff00" #light green
+      - "#009c00" #green
+      - "#006600" #dark green
+      - "#417d41" # dark pale green
+      - "#8080ff" # pale blue
+      - "#0000ff" #light blue
+      - "#00009c" #blue
+      - "#000066" #dark blue
+      - "#40407a" #dark pale blue
+      - "#ff87ff" # pale bright purple
+      - "#ff00ff" #Bright purple
+      - "#950095" #purple
+      - "#550055" #darkpurple
+      - "#7d417d" #dark pale purple
+      - "#1ce1ce" #highlight
+      - "#b5c2c7" #light
+      - "#202324" #dark
+  - name: "blackandwhite"
+    colors:
+      - "#FFFFFF"
+      - "#000000"
+      - "#111111"
+      - "#222222"
+      - "#333333"
+      - "#444444"
+      - "#555555"
+      - "#666666"
+      - "#777777"
+      - "#888888"
+      - "#999999"
+      - "#AAAAAA"
+      - "#BBBBBB"
+      - "#CCCCCC"
+      - "#DDDDDD"
+      - "#EEEEEE"
+  - name: "baw" #black and white with 3 colors
+    colors:
+      - "#FFFFFF"
+      - "#000000"
+      - "#888888"
+  - name: "teardrop"
+    colors:
+      - "#FFFFFF"
+      - "#000000"
+      - "#00FFFF"
+      - "#00EEEE"
+      - "#00DDDD"
+      - "#00CCCC"
+      - "#00BBBB"
+      - "#00AAAA"
+      - "#009999"
+      - "#008888"
+      - "#007777"
+      - "#006666"
+      - "#005555"
+      - "#004444"
+      - "#003333"
+      - "#002222"
+      - "#001111"
+  - name: "dark_teardrop"
+    colors:
+      - "#FFFFFF"
+      - "#000000"
+      - "#00FFFF"
+      - "#00EEEE"
+      - "#00DDDD"
+      - "#00CCCC"
+      - "#00BBBB"
+      - "#00AAAA"
+      - "#009999"
+      - "#008888"
+      - "#007777"
+      - "#006666"
+      - "#005555"
+      - "#004444"
+      - "#003333"
+      - "#002222"
+      - "#001111"
+#      - "#112222"
+#      - "#223333"
+#      - "#334444"
+#      - "#445555"
+#      - "#556666"
+#      - "#667777"
+#      - "#778888"
+#      - "#889999"
+#      - "#99AAAA"
+#      - "#AABBBB"
+#      - "#BBCCCC"
+#      - "#CCDDDD"
+#      - "#DDEEEE"
+      - "#DDFFFF"
+      - "#CCEEEE"
+      - "#BBDDDD"
+      - "#AACCCC"
+      - "#99BBBB"
+      - "#88AAAA"
+      - "#779999"
+      - "#668888"
+      - "#557777"
+      - "#446666"
+      - "#335555"
+      - "#224444"
+      - "#113333"
+      - "#002222"

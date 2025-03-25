@@ -18,6 +18,10 @@ themes:
         - "#b5c2c7" #light
         - "#202324" #dark
 ```   
+You can just copy from the config.yml that is in this repo. 
+It has a couple themes, but my fav is teardrop and darkTeardrop.
+Just a note, most of these themes were for testing and might not look too 
+good on most pictures, but they show you how themes are structured.
 3. Then use a command (right now there is only 1, convert)
 ex:
 ```
